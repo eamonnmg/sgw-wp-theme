@@ -1,0 +1,64 @@
+/*
+ Theme Name:   Seamus Grant Weekend
+ Description:  Seamus Grant Weekend 2018 Theme
+ Author:       Eamonn McGonigle
+ Author URI:   eamonnmcgonigle.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  seamus-grant-weekend
+*/
+
+
+.site-title{
+    font-size: 1.25em;
+}
+.sidebar-description{
+    font-size: 1.20em;
+}
+.home .site-branding-text{
+    width: 100%;
+    text-align: center;
+}
+
+.site-branding-text{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.site-branding .wrap {
+    display: flex;
+    align-items: center;
+}
+
+.home .site-branding .wrap {
+    display: block;
+    max-width: 600px;
+
+}
+
+.logo-wrapper {
+    width: 200px;
+}
+
+.home .logo-wrapper{
+    width: unset;
+}
+
+
+.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding{
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 48em){
+    .has-header-image.twentyseventeen-front-page .site-branding {
+        top: 15vh;
+        align-items: center;
+        height:100%;
+    }
+}
+
+
+
